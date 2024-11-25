@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    border: 1px solid black;
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+
+table tr th {
+    border-bottom: 1px solid white;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary {
+    background-color: blue;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: blueviolet;
+}
+
+.btn-secondary {
+    background-color: green;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: greenyellow;
+}
+
+.btn-danger {
+    background-color: red;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: orange;
+}
+
+.success {
+    background-color: aquamarine;
+}
+
+.error {
+    background-color: red;
+}
+
+form,
+.content {
+    width: 40%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.menu {
+    border-bottom: 1px solid gray;
+}
+
+
+/*Css for Menu */
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6bff;
+}
+
+.menu ul li a:hover {
+    color: red;
+}
+
+.main-content {
+    background-color: grey;
+    padding: 3% 0;
+}
+
+.col-4 {
+    width: 15%;
+    background-color: white;
+    padding: 2%;
+    margin: 1%;
+    float: left;
+}
+
+
+/*CSS for footer */
+
+.footer {
+    background-color: red;
+    color: white;
+}
